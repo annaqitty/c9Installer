@@ -17,7 +17,7 @@ $ sudo apt-get install curl -y
 
 Then run the installer command
 ```sh
-$ sudo curl -sL https://github.com/annaqitty/c9Installer -o anna.sh && sudo bash anna.sh
+$ sudo curl -sL https://raw.githubusercontent.com/annaqitty/c9Installer/master/chua.sh -o anna.sh && sudo bash anna.sh
 ```
 
 #### Running IDE
