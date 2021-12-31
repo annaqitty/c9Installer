@@ -17,7 +17,7 @@ $ sudo apt-get install curl -y
 
 Then run the installer command
 ```sh
-$ sudo curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
+$ sudo curl -sL https://github.com/annaqitty/c9Installer -o anna.sh && sudo bash anna.sh
 ```
 
 #### Running IDE
@@ -25,11 +25,11 @@ $ sudo curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master
 You can run sleepless (24x7) IDE using forever
 
 ```sh
-$ sudo forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+$ sudo forever start ~/c9sdk/server.js -w /var/www --port 7676 --listen 0.0.0.0 --auth anna:Chu4k3rz
 ```
 
 
-### Now open you browser and visit http://your.ip.address:8080
+### Now open you browser and visit http://your.ip.address:7676
 enter username and password when prompted. Yey! your personal cloud IDE is installed.
 
 
