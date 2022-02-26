@@ -3,6 +3,7 @@
 Requirements
 
   - Ubuntu (14 > 20 LTS)
+  - Centos 7 or 8 or 9
   - SSH Access
   - Port 8080 is not used
 
@@ -18,6 +19,12 @@ $ sudo apt-get install curl -y
 Then run the installer command
 ```sh
 $ sudo curl -sL https://raw.githubusercontent.com/annaqitty/c9Installer/master/chua.sh -o anna.sh && sudo bash anna.sh
+```
+
+or centos
+
+```sh
+$ sudo curl -sL https://raw.githubusercontent.com/annaqitty/c9Installer/master/centos.sh -o qitty.sh && sudo bash qitty.sh
 ```
 
 #### Running IDE
